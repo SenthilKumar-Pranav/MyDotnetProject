@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>-PromotionEngineTestCode/README.md at master · Yeshchandra/-PromotionEngineTestCode</title>
+  <title>-PromotionEngineTestCode/Program.cs at master · Yeshchandra/-PromotionEngineTestCode</title>
     <meta name="description" content="Problem Statement 2 : Promotion Engine. Contribute to Yeshchandra/-PromotionEngineTestCode development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -38,10 +38,10 @@
     <meta property="og:image" content="https://avatars1.githubusercontent.com/u/65082323?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Yeshchandra/-PromotionEngineTestCode" /><meta property="og:url" content="https://github.com/Yeshchandra/-PromotionEngineTestCode" /><meta property="og:description" content="Problem Statement 2 : Promotion Engine. Contribute to Yeshchandra/-PromotionEngineTestCode development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTQ2NjM3MTE3OmJkYzdhMTk5OWEzOTlmYjQ2MGVmNDU2MGQ2OGEwM2I1YmY1MzNhMGZmN2NmN2JmY2E0NTFmYjg1NTgyYmZiZTk=--927890c28c9664570a93bbd2334ee0bae2e85fa0">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTQ2NjM3MTE3Ojk2NmNiYzg0YTk2YTNjNTgyNmRlNzY1Y2JjMDIxNDlmNmFkOTBjMDU4MWY1YmEwZmQxODgxMGI0ZTMxYTUwZTM=--c4b509924817a1abe78e5b7546270859c7b14aae">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="F7A4:47B2:1469074:1B29747:5EE868F6" data-pjax-transient="true" /><meta name="html-safe-nonce" content="6ba9ce671a97770833ab5b7fe29498da2126ad81" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ZZXNoY2hhbmRyYS8tUHJvbW90aW9uRW5naW5lVGVzdENvZGUiLCJyZXF1ZXN0X2lkIjoiRjdBNDo0N0IyOjE0NjkwNzQ6MUIyOTc0Nzo1RUU4NjhGNiIsInZpc2l0b3JfaWQiOiIzNDkzNzE5MDU5NTA2NTM3MDM1IiwicmVnaW9uX2VkZ2UiOiJhcC1zb3V0aC0xIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="c57daa75dc01b8941b3d652736123f6a9aba6646a40b155a7409d3892a0eb22b" data-pjax-transient="true" />
+  <meta name="request-id" content="F7A4:47B2:1468CF9:1B292C4:5EE868ED" data-pjax-transient="true" /><meta name="html-safe-nonce" content="6ba9ce671a97770833ab5b7fe29498da2126ad81" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ZZXNoY2hhbmRyYS8tUHJvbW90aW9uRW5naW5lVGVzdENvZGUiLCJyZXF1ZXN0X2lkIjoiRjdBNDo0N0IyOjE0NjhDRjk6MUIyOTJDNDo1RUU4NjhFRCIsInZpc2l0b3JfaWQiOiIzNDkzNzE5MDU5NTA2NTM3MDM1IiwicmVnaW9uX2VkZ2UiOiJhcC1zb3V0aC0xIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="e2e075846034e49ace6c0b393e2a18c0efbcaeb51635b2c1995332e9f50547ee" data-pjax-transient="true" />
 
 
 
@@ -80,7 +80,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="NDFjZmJjMGZhZWRkODNlNzFhZTMzYTJjYWJiZWQzZGJiY2VkNDQ1NDE5YWNlZDU4N2Y1ZmJiZTY4ODUzODE0NXx7InJlbW90ZV9hZGRyZXNzIjoiMTA2LjIwMC4yMzIuMTU4IiwicmVxdWVzdF9pZCI6IkY3QTQ6NDdCMjoxNDY5MDc0OjFCMjk3NDc6NUVFODY4RjYiLCJ0aW1lc3RhbXAiOjE1OTIyODk1MzYsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="Y2UzODY0YTRhOGVhMWZiZjQxYzRmYzY4OGY0YjVkYWE0OWE3Y2Q1M2UzZmM0ZTRjMmY2ZjliMmZkOGRlZTgxMXx7InJlbW90ZV9hZGRyZXNzIjoiMTA2LjIwMC4yMzIuMTU4IiwicmVxdWVzdF9pZCI6IkY3QTQ6NDdCMjoxNDY4Q0Y5OjFCMjkyQzQ6NUVFODY4RUQiLCJ0aW1lc3RhbXAiOjE1OTIyODk1MjYsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,PAGE_STALE_CHECK">
 
@@ -94,7 +94,7 @@
   <meta name="octolytics-dimension-user_id" content="65082323" /><meta name="octolytics-dimension-user_login" content="Yeshchandra" /><meta name="octolytics-dimension-repository_id" content="265334982" /><meta name="octolytics-dimension-repository_nwo" content="Yeshchandra/-PromotionEngineTestCode" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="265334982" /><meta name="octolytics-dimension-repository_network_root_nwo" content="Yeshchandra/-PromotionEngineTestCode" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/Program.cs" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -168,7 +168,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="dP9lUBPgfIYAX+HNiYXgs4ykfyCRtLhOR7BRGu5CimGA9typid3XQq2LS7gflO8kbwwpVLqoJqEZKyBvwmJvQw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="jMddACuXorIixHdGlH4WU/V+YwlqenF2dJTT+360jzh4zuT5saoJdo8Q3TMCbxnEFtY1fUFm75kqD6KOUpRqGg==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -319,7 +319,7 @@
       <img class="avatar avatar-user" src="https://avatars3.githubusercontent.com/u/66909612?s=40&amp;v=4" width="20" height="20" alt="@SenthilKumar-Pranav" />
       SenthilKumar-Pranav
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="FGv9BETzEPMtQhc3J0b7lOHMJsiE5hqyysLhQyg3hpD9TC2uKDvwJMkXsCSKQ7lHKUUn+Us7DWsxRq5yUONSkA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="l/0ha7y9Fe+K/Ma7tjWb4Ma8csdFBj16Tl+Rm5x3tZN+2vHB0HX1OG6pYagbMNkzDjVz9orbKqO1296q5KNhkw==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -414,7 +414,7 @@
   data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:65082323,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:66909612,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/README.md&quot;}}" data-hydro-click-hmac="19c8af13738131df39b5be132178f086bc9e16cddf029f4340a21c321c214124">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:65082323,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:66909612,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/Program.cs&quot;}}" data-hydro-click-hmac="eb75aca518ed392611c0195871edc8fbe23511dcf7f808391f60cc7fc5560715">
       <div class="d-flex flex-items-center flex-items-stretch">
         <div class="f6 lh-condensed user-status-header d-flex user-status-emoji-only-header circle">
           <div class="user-status-emoji-container flex-shrink-0 mr-2 d-flex flex-items-center flex-justify-center lh-condensed-ultra v-align-bottom">
@@ -432,7 +432,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="kZI6TCqh6w7FeqZKBvgdtgylpZzh2op1Y1sprbYROsKdis8E29WZNXisg1CqNbZ2H/UAP40YPLBYUY1gbL6LZg==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="IBVSF5lxRO9t6D8Wn9Bts0JUvnEl7J1XyZ+rcZfDwYwsDadfaAU21NA+GgwzHcZzUQQb0kkuK5LylQ+8TWxwKA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
@@ -550,17 +550,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-16T12:38:56+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-16T12:38:46+05:30">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-16T13:08:56+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-16T13:08:46+05:30">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-16T16:08:56+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-16T16:08:46+05:30">
             in 4 hours
           </button>
         </li>
@@ -619,10 +619,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/SenthilKumar-Pranav/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/README.md&quot;,&quot;user_id&quot;:66909612}}"
-    data-feature-preview-close-hmac="1148e46a9ea25c60b537b18f7910a210f45edf15710c16b25a69ceee84f0778b"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/README.md&quot;,&quot;user_id&quot;:66909612}}"
-    data-hydro-click-hmac="21943b60bb4b13ab2416068ce3aafc93c143e5f6ed94119a23b94eebd7b04adc"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/Program.cs&quot;,&quot;user_id&quot;:66909612}}"
+    data-feature-preview-close-hmac="d9e2f5d5f00d88bd7bcc3ad5cd1c56733f791dcb0bd347306d9862f307c584fc"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/Program.cs&quot;,&quot;user_id&quot;:66909612}}"
+    data-hydro-click-hmac="c43f4b881ebd72f245d7741e8ae5eefc5cc2ad9243c07291c328d4241e962147"
   >
     Feature preview
   </button>
@@ -631,12 +631,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="JjO5E6PdacPDFvOx7BrMvqqSU5jLcZqAOvdbXELH/p3PFGm5zxWJFCdDVKJBH45tYhtSqQSsjVnBcxRtOhMqnQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="N84JoM0FITDcYfnA5a1DCxN7YKar9oXwtmuKI1gOWj3e6dkKoc3B5zg0XtNIqAHY2/Jhl2QrkilN78USINqOPQ==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_5d06" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1592289536274" class="form-control" /><input type="hidden" name="timestamp_secret" value="44ab95af2fb43c005209766c55efb50c52944d3ee0660363ab4306f7bd396665" class="form-control" />
+      <input type="text" name="required_field_8cd1" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1592289526748" class="form-control" /><input type="hidden" name="timestamp_secret" value="ca4e4433bd65569a96d66b49d33ffd22649a9202718ee95b5053520c379e5599" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -693,10 +693,10 @@
       <p class="shelf-lead">
           Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
       </p>
-      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/README.md&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="859dfc1659d725808a2030e539cb34dd96f582ab43690595bc165f6246f86a92" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
+      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/Program.cs&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="bd878744d961504e3c6e00904e56f2ee7a19edc83afb5e4be212ad7f468495d8" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
     </div>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="/0rVeCBw2o+2szYfvFTGBszoR5ba+iC79htwqFp9KR8lsxEFuBiXxsprYrltROXFEvY0JokujPiZ8JeqNuQ6Cw==" />
-      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/README.md&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="6e1dd248b723ada0aa906201c0cc42d247d8db2c013f613849c53f4ecc868ea1">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="L3dEj7w5G4i3ghdS5EXspTQpz/i04V1IyZAforXjhb/1joDyJFFWwctaQ/Q1Vc9m6je8SOc18Qume/ig2XqWqw==" />
+      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/Program.cs&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="6e231dfb2e748da09c66356f09f517dab62f459ce53b6a466b9fbaccc72f78e8">
         <svg aria-label="Hide this notice forever" class="octicon octicon-x v-align-text-top" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
 </button></form>  </div>
 </div>
@@ -741,10 +741,10 @@
   <li>
     
 
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container clearfix" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="cA6harR+WMeBAQUrra3HNCDsZiTY7HRkecA6+DjhVaMNr0uol4zIk6HiiWt6pxdDQesL22JrDBr6S/5mxT9OtA==" />      <input type="hidden" name="repository_id" value="265334982">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container clearfix" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="63+7hygzcqETffoUMj475/6fkHx1/7Sr7PNCDpk9ld2W3lFFC8Hi9TOedlTlNOuQn5j9g894zNVveIaQZOOOyg==" />      <input type="hidden" name="repository_id" value="265334982">
 
       <details class="details-reset details-overlay select-menu float-left" >
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/README.md&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="3feb21d8345c34f7f8de7a126dc5629c34df56f365ca54afcebe536441b627e7" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/Program.cs&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="3126bfb13a06c8a9977d05dde7896aff66ecd041a6b85191fb36815fa7578cad" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
               Watch
           </span>
@@ -823,9 +823,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/Yeshchandra/-PromotionEngineTestCode/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="NLz9WFL+DmdCBKnGdxlvWLkPzaamnntNpL8wROcFlfQSXM0QQ4GTnsH+IVrlti5h+LCOUG+BIJMKKvLyfMC4Cw==" />
+    <form class="starred js-social-form" action="/Yeshchandra/-PromotionEngineTestCode/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ZDbupgqCeRzEMtClGFRJdGufJvFEYZu4oRJO64U4/+RC1t7uG/3k5UfIWDmK+whNKiBlB41+wGYPh4xdHv3SGw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar Yeshchandra/-PromotionEngineTestCode" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/README.md&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="dd15ee3a4c1b3aa333ff786376375e30861b3b0be1d871b60c5a693186cfd54a" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar Yeshchandra/-PromotionEngineTestCode" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/Program.cs&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="5d2c3b45751fe71b172181d6dc41dd3b55a7ff8771dbafbbe440d7928e75ac9d" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/Yeshchandra/-PromotionEngineTestCode/stargazers"
@@ -833,9 +833,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/Yeshchandra/-PromotionEngineTestCode/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="E/hz0pbxxqX9FM58mMHOCmpx+Mu7y4UstU8TT4kKLHUXRkDViYKorx4SEQQNgv6fpdNIYOHtLTSP39d7m9RDqw==" />
+    <form class="unstarred js-social-form" action="/Yeshchandra/-PromotionEngineTestCode/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="8fYIdflIceYhsJMmaIaJSRcCGQMVNf4AFX/RirIW8uv1SDty5jsf7MK2TF79xbnc2KCpqE8TVhgv7xW+oMidNQ==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star Yeshchandra/-PromotionEngineTestCode" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/README.md&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="e1b38ae8cdb077f17d04e1b9b0976cb09a32dc5b756de622165874925c345092" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star Yeshchandra/-PromotionEngineTestCode" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/Program.cs&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="19bcb4b5649d9fa1526920fb7a12ffb0ea95373c7a967700e329cd1a4653485f" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/Yeshchandra/-PromotionEngineTestCode/stargazers"
@@ -847,8 +847,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/Yeshchandra/-PromotionEngineTestCode/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="VptKSYm88rGADl/m8+4nWRFCRMSy4tukr3DA+pfxDj/g2caxs0hGX3ySFs2PHZH0tEmTPcCd4DtWus5JygCGCQ==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/README.md&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="5c5a6917c4f8d817070b578a4333830185cf894b1cfae33bbc1a48a2b2d43254" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of Yeshchandra/-PromotionEngineTestCode to your account" aria-label="Fork your own copy of Yeshchandra/-PromotionEngineTestCode to your account">              <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/Yeshchandra/-PromotionEngineTestCode/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="OGuPF5LbvV/scyE6HcHErbgr23Z8jsiKdVU5ty2PuSiOKQPvqC8JsRDvaBFhMnIAHSAMjw7x8xWMnzcEcH4xHg==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:265334982,&quot;originating_url&quot;:&quot;https://github.com/Yeshchandra/-PromotionEngineTestCode/blob/master/Program.cs&quot;,&quot;user_id&quot;:66909612}}" data-hydro-click-hmac="497dc82f816b8ec5f966005f808445beb46ac9a321ee9eb5c9025e43a0e22485" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of Yeshchandra/-PromotionEngineTestCode to your account" aria-label="Fork your own copy of Yeshchandra/-PromotionEngineTestCode to your account">              <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
               Fork
 </button></form>
     <a href="/Yeshchandra/-PromotionEngineTestCode/network/members" class="social-count"
@@ -1004,9 +1004,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Yeshchandra/-PromotionEngineTestCode/blob/7f59c72da03c197445c2d3d7cc68a6c4e7afb080/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Yeshchandra/-PromotionEngineTestCode/blob/7f59c72da03c197445c2d3d7cc68a6c4e7afb080/Program.cs">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:84dd27f7d355d0853c6f8f523b7f2d14 -->
+    <!-- blob contrib key: blob_contributors:v22:8397b1d1a79f2fccd1c7cf83a408bcd3 -->
     
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
@@ -1021,7 +1021,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/Yeshchandra/-PromotionEngineTestCode/refs/master/README.md?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/Yeshchandra/-PromotionEngineTestCode/refs/master/Program.cs?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
@@ -1037,13 +1037,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="README.md" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="Program.cs" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/Yeshchandra/-PromotionEngineTestCode"><span>-PromotionEngineTestCode</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/Yeshchandra/-PromotionEngineTestCode"><span>-PromotionEngineTestCode</span></a></span></span><span class="separator">/</span><strong class="final-path">Program.cs</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -1053,7 +1053,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="README.md" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="Program.cs" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -1061,7 +1061,7 @@
 
 
 
-    <include-fragment src="/Yeshchandra/-PromotionEngineTestCode/contributors/master/README.md" class="Box Box--condensed commit-loader">
+    <include-fragment src="/Yeshchandra/-PromotionEngineTestCode/contributors/master/Program.cs" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -1082,17 +1082,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      2 lines (2 sloc)
+      30 lines (24 sloc)
       <span class="file-info-divider"></span>
-    66 Bytes
+    804 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Yeshchandra/-PromotionEngineTestCode/raw/master/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Yeshchandra/-PromotionEngineTestCode/blame/master/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Yeshchandra/-PromotionEngineTestCode/commits/master/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Yeshchandra/-PromotionEngineTestCode/raw/master/Program.cs">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Yeshchandra/-PromotionEngineTestCode/blame/master/Program.cs">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Yeshchandra/-PromotionEngineTestCode/commits/master/Program.cs">History</a>
     </div>
 
 
@@ -1105,13 +1105,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/Yeshchandra/-PromotionEngineTestCode/edit/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="N1Y+QlK8lkm1/JMjz1C/O94ycjtboG6rkagC5mMAtnpRQ9y0zKloWipYN6Xs/kGhNqfAw60szCmLHIRjbMaeoA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/Yeshchandra/-PromotionEngineTestCode/edit/master/Program.cs" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="zpONjq8WFT1b57gagiWC7V4OOpi5e1kzp5lIWu77pwckWuoFrfXxmQllT+reJYkGqZLnANBP3eK4+r4fGJRilg==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Yeshchandra/-PromotionEngineTestCode/delete/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="pQfkQh8VLyAelIlRX9pAkj4HqI0vSarYHMaS8usHI5YxqCdhj7T6rE+lMytFAkpOjYITDpY0piTRGi8PHMSYQA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Yeshchandra/-PromotionEngineTestCode/delete/master/Program.cs" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Ov8vuwFPEFJKcFqvP8IASYlTIRwPaD0SeUWKUasmZqCvR4CnJkKRaQlW38uorktSK1rxKWGTBLPqcis4eOmx9w==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
@@ -1123,10 +1123,159 @@
 
 
       
-  <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content--promotionenginetestcode" class="anchor" aria-hidden="true" href="#-promotionenginetestcode"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>-PromotionEngineTestCode</h1>
-<p>Problem Statement 2 : Promotion Engine</p>
-</article>
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-c ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">using</span> <span class="pl-en">System</span>;</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">using</span> <span class="pl-en">System</span>.<span class="pl-en">Collections</span>.<span class="pl-en">Generic</span>;</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">namespace</span> <span class="pl-en">CodingTest</span></td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">{</td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">internal</span> <span class="pl-k">class</span> <span class="pl-en">Program</span></td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">    {</td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">private</span> <span class="pl-k">static</span> <span class="pl-k">void</span> <span class="pl-en">Main</span>(<span class="pl-k">string</span>[] <span class="pl-smi">args</span>)</td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">        {</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">            <span class="pl-en">List</span>&lt;<span class="pl-en">Product</span>&gt; <span class="pl-smi">products</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">List</span>&lt;<span class="pl-en">Product</span>&gt;();</td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">Console</span>.<span class="pl-en">WriteLine</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>total number of order<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">int</span> <span class="pl-smi">a</span> <span class="pl-k">=</span> <span class="pl-smi">Convert</span>.<span class="pl-en">ToInt32</span>(<span class="pl-smi">Console</span>.<span class="pl-en">ReadLine</span>());</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">for</span> (<span class="pl-k">int</span> <span class="pl-smi">i</span> <span class="pl-k">=</span> <span class="pl-c1">0</span>; <span class="pl-smi">i</span> <span class="pl-k">&lt;</span> <span class="pl-smi">a</span>; <span class="pl-smi">i</span><span class="pl-k">++</span>)</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">            {</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">                <span class="pl-smi">Console</span>.<span class="pl-en">WriteLine</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>enter the type of product:A,B,C or D<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">string</span> <span class="pl-smi">type</span> <span class="pl-k">=</span> <span class="pl-smi">Console</span>.<span class="pl-en">ReadLine</span>();</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">                <span class="pl-en">Product</span> <span class="pl-smi">p</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Product</span>(<span class="pl-smi">type</span>);</td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">                <span class="pl-smi">products</span>.<span class="pl-en">Add</span>(<span class="pl-smi">p</span>);</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">            }</td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">int</span> <span class="pl-smi">totalPrice</span> <span class="pl-k">=</span> <span class="pl-smi">Product</span>.<span class="pl-en">GetTotalPrice</span>(<span class="pl-smi">products</span>);</td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">Console</span>.<span class="pl-en">WriteLine</span>(<span class="pl-smi">totalPrice</span>);</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">Console</span>.<span class="pl-en">ReadLine</span>();</td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">    </td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/Yeshchandra/-PromotionEngineTestCode/blame/7f59c72da03c197445c2d3d7cc68a6c4e7afb080/Program.cs">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/Yeshchandra/-PromotionEngineTestCode/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
   </div>
 
     </div>
