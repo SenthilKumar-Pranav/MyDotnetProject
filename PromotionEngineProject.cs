@@ -9,7 +9,7 @@ namespace CodingTest
         private const decimal PRICE_A = 50m;
         private const decimal PRICE_B = 30m;
         private const decimal PRICE_C = 20m;
-        private const decimal PRICE_D = 2015m;
+        private const decimal PRICE_D = 15m;
 
         public string Id { get; set; }
         public decimal Price { get; set; }
